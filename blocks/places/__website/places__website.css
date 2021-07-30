@@ -1,0 +1,30 @@
+.places__website {
+  max-width: 100%;
+  align-self: end;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #FFF;
+  position: relative;
+  transition: all 0.8s ease-in-out;
+}
+
+.places__website::before {
+  content: 'URL';
+  position: absolute;
+  bottom: 32px;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #AAA;
+}
+
+.places__website:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    margin-left: 16px;
+  }
+}

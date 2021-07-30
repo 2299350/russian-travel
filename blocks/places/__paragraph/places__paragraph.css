@@ -1,0 +1,17 @@
+.places__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.places__paragraph:not(:nth-child(1)) {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
