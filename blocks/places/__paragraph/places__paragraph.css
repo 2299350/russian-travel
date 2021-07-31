@@ -9,9 +9,21 @@
   margin-top: 26px;
 }
 
+@media screen and (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .places__paragraph {
     margin-left: 16px;
     margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__paragraph:not(:nth-child(1)) {
+    margin-top: 25px;
   }
 }

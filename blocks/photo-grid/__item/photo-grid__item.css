@@ -1,8 +1,7 @@
 .photo-grid__item {
-  content: "";
   width: 100%;
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
+  object-position: center;
   height: 213px;
 }
 

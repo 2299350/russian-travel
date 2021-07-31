@@ -5,11 +5,17 @@
   text-decoration: none;
   margin-left: 18px;
   color: #FFF;
+  transition: all 0.8s ease-in-out;
+}
+
+.header__lang:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
   .header__lang {
     font-size: 18px;
     line-height: 20px;
+    padding-bottom: 5px;
   }
 }

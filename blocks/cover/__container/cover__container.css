@@ -1,4 +1,6 @@
 .cover__container {
   position: relative;
+  text-decoration: none;
+  color: #FFF;
   text-align: center;
 }

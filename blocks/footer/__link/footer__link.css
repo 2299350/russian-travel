@@ -1,6 +1,11 @@
 .footer__link {
   text-decoration: none;
   color: #FFF;
+  transition: all 0.8s ease-in-out;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 .footer__link:not(:nth-last-child(1)) {
